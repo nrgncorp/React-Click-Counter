@@ -5,9 +5,65 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(24, 24, 24);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.counter{
+  margin-left: 35%;
+  margin-right: 35%;
+  width: 30%;
+  height: 50vh;
+  margin-top: 25vh;
+  margin-bottom: 25vh;
+  background-color: rgb(47, 37, 90);
+  border-radius: 15px;
+  display:grid;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.counter p{
+  font-size: 20px;
+}
+
+.counter button{
+  background-color: rgb(255, 255, 255);
+  font-size: 1.3rem;
+  width: 100%;
+  border-radius: 10px;
+  padding: 10px;
+  color: rgb(0, 0, 0);
+  transition: all 0.5s ease;
+  height: 70px;
+  border: 0;
+  font-weight: bold;
+}
+
+.counter button:hover{
+  background-color: rgb(219, 219, 219);
+  cursor: pointer;
+}
+
+.count-show{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.clickCount{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(24, 24, 24);
+  width: 80px;
+  height: 80px;
+  font-size: 40px !important;
+  text-align: center;
+  border-radius: 100px;
 }
